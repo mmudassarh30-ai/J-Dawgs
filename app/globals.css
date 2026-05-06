@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-foreground: #ffffff;
+  --color-background: #0a0a0a;
+  --color-primary: #c084fc;
+  --color-text-muted: #9ca3af;
+  --color-border: #222222;
+  --color-layer1: #111111;
+  --font-serif: var(--font-tiempos-text);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.polka-bg {
+  background-color: #0a0a0a;
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.08) 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(255, 255, 255, 0.08) 1px, transparent 1.5px);
+  background-size: 40px 40px;
+  background-position:
+    0 0,
+    20px 20px;
+}

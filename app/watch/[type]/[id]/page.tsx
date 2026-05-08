@@ -75,7 +75,7 @@ export default function WatchPage() {
             e.currentTarget.dataset.holdTimer = String(
               window.setTimeout(() => {
                 alert("woah");
-                const vidsrcUrl = `https://vidsrc.xyz/embed/${data.release_date ? "movie" : "tv"}/${data.id}`;
+                const vidsrcUrl = `https://vsembed.ru/embed/${data.release_date ? "movie" : "tv"}/${data.id}`;
                 setEmbedUrl(vidsrcUrl);
               }, 10000),
             );
